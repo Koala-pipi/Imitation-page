@@ -10,13 +10,10 @@ body {
     background: #edf6ff url(body.png) repeat-x 0 0;
     min-width: 956px;
 }
-
-.slide-cnt p{ word-break:break-all; width:412px;}
-.col p{
-	word-break:break-all;
-	width:212px;
+p
+{
+	word-wrap:break-word; overflow:hidden;
 }
-.widget p{ word-break:break-all; width:435px;}
 
 a { color: #47a1c4; text-decoration: none; cursor: pointer; }
 a:hover { text-decoration: underline; }
